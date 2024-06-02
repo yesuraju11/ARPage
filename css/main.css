@@ -1,0 +1,85 @@
+/*--------------------------- Color variations ----------------------*/
+/* Medium Layout: 1280px */
+/* Tablet Layout: 768px */
+/* Mobile Layout: 320px */
+/* Wide Mobile Layout: 480px */
+/* =================================== */
+/*  Basic Style 
+/* =================================== */
+
+
+
+
+
+
+
+
+
+body {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+}
+
+
+select {
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+
+
+}
+
+.section-gap {
+  padding: 10px 0;
+}
+
+.gallery-area {
+  background-color: #222;
+  color: #fff;
+}
+
+
+
+.gal {
+  -webkit-column-count: 4;
+  
+  -moz-column-count: 4;
+ 
+  column-count: 4;
+}
+
+.gal img {
+  width: 100%;
+  padding: 7px 0;
+}
+
+@media (max-width: 760px) {
+  .gal {
+    -webkit-column-count: 3;
+    
+    -moz-column-count: 3;
+  
+    column-count: 3;
+  }
+}
+
